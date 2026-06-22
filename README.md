@@ -25,7 +25,7 @@ O objetivo desta aplicação é o desenvolvimento de um sistema de registro de d
 <li><a href="https://deluxe-caramel-b17905.netlify.app/login"> Clique aqui</a></li>
 
 ## Download
-
+<li><a href="https://github.com/RayssaViana06/VibeCheck/blob/main/presentation/app-release.apk"> Clique aqui</a></li>
 
 # Documentação
 
