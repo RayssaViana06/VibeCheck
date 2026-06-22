@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "e23ed16be73646daa51d4cf2",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Hoje foi incrível, acordei com uma energia diferente, aquela sensação boa de que as coisas estão no lugar certo. Fiz uma caminhada de manhã cedo, o sol estava perfeito, daquele jeito dourado que ilumina tudo. No trabalho recebi um elogio do meu chefe sobre um projeto que eu tinha levado semanas pra terminar, e deu uma satisfação enorme saber que o esforço valeu. Almocei com uma amiga que não via há meses e a gente ficou rindo à toa de coisas que nem eram tão engraçadas assim, mas o momento era bom demais. À tarde me senti produtivo, concentrado, consegui terminar tudo o que precisava. De noite fiz uma receita nova que ficou ótima e comi assistindo a um filme que eu estava adiando faz tempo. Fui dormir grato, com aquela leveza boa que é difícil de explicar mas que todo mundo reconhece quando sente.",
+    "analiseIA": {
+      "emocaoPredominante": "joy",
+      "frases": [
+        {
+          "trecho": "Hoje foi incrível, acordei com uma energia diferente, aquela sensação boa de que as coisas estão no lugar certo.",
+          "emocao": "joy",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Fiz uma caminhada de manhã cedo, o sol estava perfeito, daquele jeito dourado que ilumina tudo.",
+          "emocao": "joy",
+          "intensidade": 7
+        },
+        {
+          "trecho": "No trabalho recebi um elogio do meu chefe sobre um projeto que eu tinha levado semanas pra terminar, e deu uma satisfação enorme saber que o esforço valeu.",
+          "emocao": "joy",
+          "intensidade": 10
+        },
+        {
+          "trecho": "Almocei com uma amiga que não via há meses e a gente ficou rindo à toa de coisas que nem eram tão engraçadas assim, mas o momento era bom demais.",
+          "emocao": "joy",
+          "intensidade": 9
+        },
+        {
+          "trecho": "À tarde me senti produtivo, concentrado, consegui terminar tudo o que precisava.",
+          "emocao": "joy",
+          "intensidade": 7
+        },
+        {
+          "trecho": "Fui dormir grato, com aquela leveza boa que é difícil de explicar mas que todo mundo reconhece quando sente.",
+          "emocao": "joy",
+          "intensidade": 8
+        }
+      ]
+    },
+    "createdAt": "2026-05-03T22:27:47.000Z"
+  },
+  {
+    "id": "6050e77211ac4e4cac55fe8e",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Tive que fazer uma apresentação hoje pra uma plateia que eu não esperava que seria tão grande, entrei na sala e vi umas trinta pessoas me olhando e meu coração disparou na hora. Tentei respirar fundo mas os joelhos ficaram travados por um tempo que me pareceu eterno. Comecei a falar e a voz saiu um pouco tremida nos primeiros minutos, fiquei com medo de errar os números, de esquecer alguma parte importante. No meio da apresentação tive um branco, parei uns três segundos que pareceram três minutos, e aquele silêncio foi dos mais assustadores que já vivi. Consegui me recuperar, terminei, recebi aplausos, mas a adrenalina ficou circulando no meu corpo o dia todo, me deixando meio tenso e com a cabeça ligada. Só à noite, no banho, consegui finalmente soltar aquela tensão toda.",
+    "analiseIA": {
+      "emocaoPredominante": "fear",
+      "frases": [
+        {
+          "trecho": "Tive que fazer uma apresentação hoje pra uma plateia que eu não esperava que seria tão grande, entrei na sala e vi umas trinta pessoas me olhando e meu coração disparou na hora.",
+          "emocao": "fear",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Tentei respirar fundo mas os joelhos ficaram travados por um tempo que me pareceu eterno.",
+          "emocao": "fear",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Comecei a falar e a voz saiu um pouco tremida nos primeiros minutos, fiquei com medo de errar os números, de esquecer alguma parte importante.",
+          "emocao": "fear",
+          "intensidade": 8
+        },
+        {
+          "trecho": "No meio da apresentação tive um branco, parei uns três segundos que pareceram três minutos, e aquele silêncio foi dos mais assustadores que já vivi.",
+          "emocao": "fear",
+          "intensidade": 10
+        },
+        {
+          "trecho": "Consegui me recuperar, terminei, recebi aplausos, mas a adrenalina ficou circulando no meu corpo o dia todo, me deixando meio tenso e com a cabeça ligada.",
+          "emocao": "fear",
+          "intensidade": 6
+        },
+        {
+          "trecho": "Só à noite, no banho, consegui finalmente soltar aquela tensão toda.",
+          "emocao": "neutral",
+          "intensidade": 3
+        }
+      ]
+    },
+    "createdAt": "2026-05-02T17:15:37.000Z"
+  },
+  {
+    "id": "05e99afbbeb6473c876897eb",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Hoje foi um dia que eu precisava muito não ter saído de casa. Logo cedo o metrô atrasou quarenta minutos sem nenhuma explicação, fiquei no calor da plataforma lotada com a paciência diminuindo a cada minuto que passava. Cheguei atrasado na reunião e o meu gerente fez questão de comentar em frente a todo mundo, com aquele sorriso que eu detesto, o tipo de comentário que não é ofensa mas também não é gentileza. Passei a manhã toda tentando resolver um problema que não era meu mas que jogaram no meu colo de última hora, sem prazo razoável, sem recursos adequados. À tarde o sistema caiu três vezes. Três. Perdi trabalho que não tinha salvo, fiquei com os dentes cerrados na frente do computador e tive que sair pra tomar água e respirar pra não explodir com ninguém. Voltei pra casa na chuva sem guarda-chuva porque esqueci. Foi esse tipo de dia.",
+    "analiseIA": {
+      "emocaoPredominante": "anger",
+      "frases": [
+        {
+          "trecho": "Logo cedo o metrô atrasou quarenta minutos sem nenhuma explicação, fiquei no calor da plataforma lotada com a paciência diminuindo a cada minuto que passava.",
+          "emocao": "anger",
+          "intensidade": 7
+        },
+        {
+          "trecho": "Cheguei atrasado na reunião e o meu gerente fez questão de comentar em frente a todo mundo, com aquele sorriso que eu detesto.",
+          "emocao": "anger",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Passei a manhã toda tentando resolver um problema que não era meu mas que jogaram no meu colo de última hora, sem prazo razoável, sem recursos adequados.",
+          "emocao": "anger",
+          "intensidade": 8
+        },
+        {
+          "trecho": "À tarde o sistema caiu três vezes. Três. Perdi trabalho que não tinha salvo.",
+          "emocao": "anger",
+          "intensidade": 10
+        },
+        {
+          "trecho": "Fiquei com os dentes cerrados na frente do computador e tive que sair pra tomar água e respirar pra não explodir com ninguém.",
+          "emocao": "anger",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Voltei pra casa na chuva sem guarda-chuva porque esqueci. Foi esse tipo de dia.",
+          "emocao": "disgust",
+          "intensidade": 5
+        }
+      ]
+    },
+    "createdAt": "2026-05-01T17:24:29.000Z"
+  },
+  {
+    "id": "b56e91a21cbd4ab7838f5317",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Hoje aconteceu uma coisa que eu definitivamente não vi vindo. Cheguei no trabalho normalmente, peguei meu café, sentei na mesa, e quando abri o computador tinha um e-mail do RH me informando sobre uma promoção que eu nem sabia que estava sendo considerada. Fiquei olhando pra tela por uns dois minutos sem conseguir processar direito, lendo de novo e de novo pra ver se tinha entendido certo. Depois minha equipe entrou na sala com um bolinho e cantou parabéns, coisa que me deixou completamente sem ação porque eu odeio ser o centro das atenções e eles sabem disso, então foi uma gracinha deles. Passei o dia com aquela sensação estranha de quando algo bom acontece e você ainda não sabe bem como reagir. À noite liguei pra minha mãe e ela ficou mais feliz do que eu, o que foi fofo.",
+    "analiseIA": {
+      "emocaoPredominante": "surprise",
+      "frases": [
+        {
+          "trecho": "Quando abri o computador tinha um e-mail do RH me informando sobre uma promoção que eu nem sabia que estava sendo considerada.",
+          "emocao": "surprise",
+          "intensidade": 10
+        },
+        {
+          "trecho": "Fiquei olhando pra tela por uns dois minutos sem conseguir processar direito, lendo de novo e de novo pra ver se tinha entendido certo.",
+          "emocao": "surprise",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Depois minha equipe entrou na sala com um bolinho e cantou parabéns, coisa que me deixou completamente sem ação.",
+          "emocao": "surprise",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Passei o dia com aquela sensação estranha de quando algo bom acontece e você ainda não sabe bem como reagir.",
+          "emocao": "surprise",
+          "intensidade": 6
+        },
+        {
+          "trecho": "À noite liguei pra minha mãe e ela ficou mais feliz do que eu, o que foi fofo.",
+          "emocao": "joy",
+          "intensidade": 7
+        }
+      ]
+    },
+    "createdAt": "2026-04-30T17:28:31.000Z"
+  },
+  {
+    "id": "e7e652301b674719aa9d29e3",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Tive que participar de uma reunião hoje que foi de longe a mais constrangedora que já vivi profissionalmente. Um colega passou quarenta minutos apresentando um trabalho que era claramente plágio de um projeto que outra pessoa da equipe tinha feito no ano passado, e todo mundo na sala sabia, e ninguém disse nada. Fiquei ali sentado com aquela sensação de engasgo, de coisa errada acontecendo na minha frente sem que eu pudesse fazer nada sem criar um constrangimento enorme. Depois a reunião terminou e as pessoas foram elogiando o cara normalmente como se nada tivesse acontecido, e eu fui pro banheiro me perguntar se sou eu que estou vendo as coisas errado ou se o mundo realmente funciona assim. De tarde fui almoçar e o refeitório estava com um cheiro ruim que tirou meu apetite completamente. Fui pra casa com aquele gosto amargo de dia que deixa você questionando muita coisa.",
+    "analiseIA": {
+      "emocaoPredominante": "disgust",
+      "frases": [
+        {
+          "trecho": "Um colega passou quarenta minutos apresentando um trabalho que era claramente plágio de um projeto que outra pessoa da equipe tinha feito no ano passado.",
+          "emocao": "disgust",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Todo mundo na sala sabia, e ninguém disse nada.",
+          "emocao": "disgust",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Fiquei ali sentado com aquela sensação de engasgo, de coisa errada acontecendo na minha frente sem que eu pudesse fazer nada.",
+          "emocao": "disgust",
+          "intensidade": 9
+        },
+        {
+          "trecho": "As pessoas foram elogiando o cara normalmente como se nada tivesse acontecido.",
+          "emocao": "disgust",
+          "intensidade": 10
+        },
+        {
+          "trecho": "Fui pro banheiro me perguntar se sou eu que estou vendo as coisas errado ou se o mundo realmente funciona assim.",
+          "emocao": "fear",
+          "intensidade": 5
+        },
+        {
+          "trecho": "Fui pra casa com aquele gosto amargo de dia que deixa você questionando muita coisa.",
+          "emocao": "disgust",
+          "intensidade": 7
+        }
+      ]
+    },
+    "createdAt": "2026-04-29T21:08:30.000Z"
+  },
+  {
+    "id": "0fec21653941499ea8e037c6",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Hoje foi um dia muito comum, sem picos pra cima nem pra baixo. Acordei no horário, tomei café, fui trabalhar. As tarefas do dia eram todas rotineiras, nada difícil mas nada estimulante também, o tipo de trabalho que você faz no piloto automático sem precisar pensar muito. Almocei o que tinha na geladeira, uma sobra de ontem que ainda estava boa. À tarde tive uma reunião de alinhamento que poderia ter sido um e-mail, mas tudo bem. Voltei pra casa, assisti um episódio de uma série, dormi cedo. Não tenho muito a dizer sobre hoje. Foi um dia que passou, que faz parte da vida, e que provavelmente não vou lembrar daqui a uma semana. Às vezes os dias são assim e tudo bem.",
+    "analiseIA": {
+      "emocaoPredominante": "neutral",
+      "frases": [
+        {
+          "trecho": "Hoje foi um dia muito comum, sem picos pra cima nem pra baixo.",
+          "emocao": "neutral",
+          "intensidade": 5
+        },
+        {
+          "trecho": "As tarefas do dia eram todas rotineiras, nada difícil mas nada estimulante também, o tipo de trabalho que você faz no piloto automático.",
+          "emocao": "neutral",
+          "intensidade": 4
+        },
+        {
+          "trecho": "Almocei o que tinha na geladeira, uma sobra de ontem que ainda estava boa.",
+          "emocao": "neutral",
+          "intensidade": 3
+        },
+        {
+          "trecho": "À tarde tive uma reunião de alinhamento que poderia ter sido um e-mail, mas tudo bem.",
+          "emocao": "neutral",
+          "intensidade": 4
+        },
+        {
+          "trecho": "Não tenho muito a dizer sobre hoje. Foi um dia que passou, que faz parte da vida.",
+          "emocao": "neutral",
+          "intensidade": 5
+        },
+        {
+          "trecho": "Às vezes os dias são assim e tudo bem.",
+          "emocao": "neutral",
+          "intensidade": 3
+        }
+      ]
+    },
+    "createdAt": "2026-04-28T11:09:09.000Z"
+  },
+  {
+    "id": "a683a2a3ad344f929ddf220a",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Faz exatamente um ano que meu pai faleceu e eu acordei sabendo disso, aquela data que você nunca esquece mesmo que tente. Fui trabalhar porque ficar em casa seria pior, mas passei o dia num estado de presença pela metade, sabe, corpo aqui e cabeça em outro lugar. Uma colega me perguntou se eu estava bem e eu disse que sim, porque é mais fácil dizer que sim. Fui ao cemitério depois do trabalho, sozinho, e fiquei uns vinte minutos lá em silêncio sem saber bem o que fazer com os pensamentos. De noite minha mãe me ligou e a gente conversou por uma hora, e foi bom mas também foi difícil, porque às vezes conversar sobre ele alivia e às vezes só aumenta a saudade. Comi pouco, dormi mal. Amanhã vai ser mais fácil.",
+    "analiseIA": {
+      "emocaoPredominante": "sadness",
+      "frases": [
+        {
+          "trecho": "Faz exatamente um ano que meu pai faleceu e eu acordei sabendo disso, aquela data que você nunca esquece mesmo que tente.",
+          "emocao": "sadness",
+          "intensidade": 10
+        },
+        {
+          "trecho": "Fui trabalhar porque ficar em casa seria pior, mas passei o dia num estado de presença pela metade.",
+          "emocao": "sadness",
+          "intensidade": 7
+        },
+        {
+          "trecho": "Uma colega me perguntou se eu estava bem e eu disse que sim, porque é mais fácil dizer que sim.",
+          "emocao": "neutral",
+          "intensidade": 5
+        },
+        {
+          "trecho": "Fui ao cemitério depois do trabalho, sozinho, e fiquei uns vinte minutos lá em silêncio.",
+          "emocao": "sadness",
+          "intensidade": 9
+        },
+        {
+          "trecho": "De noite minha mãe me ligou e a gente conversou por uma hora, e foi bom mas também foi difícil.",
+          "emocao": "sadness",
+          "intensidade": 7
+        },
+        {
+          "trecho": "Amanhã vai ser mais fácil.",
+          "emocao": "neutral",
+          "intensidade": 4
+        }
+      ]
+    },
+    "createdAt": "2026-04-27T12:55:09.000Z"
+  },
+  {
+    "id": "69a2c1bd0aec483dbcec7549",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Recebi hoje a notícia que eu estava esperando há três meses: fui aprovado no processo seletivo da empresa que eu queria muito entrar. Quando vi o e-mail eu reli umas quatro vezes antes de conseguir acreditar de verdade, e depois fiquei em silêncio por uns minutos com um sorriso idiota no rosto sem conseguir fazer nada. Liguei pra minha namorada, que ficou mais feliz do que eu se isso for possível, e ela quis comemorar na hora. Fomos jantar num restaurante que a gente costuma guardar pra ocasiões especiais, bebemos vinho, ficamos conversando por horas sobre os planos. Voltei pra casa flutuando, com aquela leveza que você sente quando algo pelo qual trabalhou muito finalmente dá certo. Caí na cama sorrindo e achei que podia dormir sorrindo também.",
+    "analiseIA": {
+      "emocaoPredominante": "joy",
+      "frases": [
+        {
+          "trecho": "Recebi hoje a notícia que eu estava esperando há três meses: fui aprovado no processo seletivo.",
+          "emocao": "joy",
+          "intensidade": 10
+        },
+        {
+          "trecho": "Quando vi o e-mail eu reli umas quatro vezes antes de conseguir acreditar de verdade.",
+          "emocao": "surprise",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Fiquei em silêncio por uns minutos com um sorriso idiota no rosto sem conseguir fazer nada.",
+          "emocao": "joy",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Fomos jantar num restaurante que a gente costuma guardar pra ocasiões especiais, bebemos vinho, ficamos conversando por horas sobre os planos.",
+          "emocao": "joy",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Voltei pra casa flutuando, com aquela leveza que você sente quando algo pelo qual trabalhou muito finalmente dá certo.",
+          "emocao": "joy",
+          "intensidade": 10
+        },
+        {
+          "trecho": "Caí na cama sorrindo e achei que podia dormir sorrindo também.",
+          "emocao": "joy",
+          "intensidade": 9
+        }
+      ]
+    },
+    "createdAt": "2026-04-25T12:18:02.000Z"
+  },
+  {
+    "id": "f42309f4b7104d1ca4172493",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Não aconteceu nada específico hoje, mas eu passei o dia inteiro com aquela ansiedade difusa que não tem endereço certo. É uma sensação que eu conheço bem, um aperto no peito que não vai embora, uma inquietação que me faz levantar e sentar e levantar de novo sem saber o que estou procurando. Tentei trabalhar mas me peguei relendo o mesmo parágrafo dez vezes sem absorver nada. Tomei mais café do que devia, o que com certeza não ajudou. À tarde tentei meditar por cinco minutos e consegui ficar dois antes de começar a pensar em tudo que tenho pra fazer essa semana e nas coisas que podem dar errado. Fui caminhar, o que ajudou um pouco. Voltei mais calmo, mas a noite veio e o aperto voltou junto. Preciso conversar sobre isso na próxima sessão.",
+    "analiseIA": {
+      "emocaoPredominante": "fear",
+      "frases": [
+        {
+          "trecho": "Passei o dia inteiro com aquela ansiedade difusa que não tem endereço certo.",
+          "emocao": "fear",
+          "intensidade": 8
+        },
+        {
+          "trecho": "É uma sensação que eu conheço bem, um aperto no peito que não vai embora, uma inquietação que me faz levantar e sentar de novo.",
+          "emocao": "fear",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Tentei trabalhar mas me peguei relendo o mesmo parágrafo dez vezes sem absorver nada.",
+          "emocao": "fear",
+          "intensidade": 6
+        },
+        {
+          "trecho": "Tentei meditar por cinco minutos e consegui ficar dois antes de começar a pensar em tudo que pode dar errado.",
+          "emocao": "fear",
+          "intensidade": 7
+        },
+        {
+          "trecho": "Fui caminhar, o que ajudou um pouco. Voltei mais calmo.",
+          "emocao": "neutral",
+          "intensidade": 4
+        },
+        {
+          "trecho": "A noite veio e o aperto voltou junto. Preciso conversar sobre isso na próxima sessão.",
+          "emocao": "fear",
+          "intensidade": 7
+        }
+      ]
+    },
+    "createdAt": "2026-04-24T09:22:38.000Z"
+  },
+  {
+    "id": "6b1cc8941c9e40aaaf784f65",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Presenciei uma situação no trabalho hoje que me deixou extremamente mal. Um gestor de outro departamento tratou uma estagiária de um jeito completamente desrespeitoso na frente de várias pessoas, com um tom de voz e palavras que não deveriam ser aceitáveis em nenhum ambiente profissional. A menina ficou visivelmente constrangida e eu vi ela engolir seco e continuar como se nada tivesse acontecido, provavelmente porque não tem escolha. Fiquei com aquela mistura de nojo e raiva que fermenta o dia todo. Depois fui ao RH reportar de forma anônima, não sei se vai adiantar, mas não conseguia ficar quieto. Voltei pra casa pensando que algumas dinâmicas de poder são absolutamente podres e que às vezes a gente se sente impotente demais.",
+    "analiseIA": {
+      "emocaoPredominante": "disgust",
+      "frases": [
+        {
+          "trecho": "Um gestor de outro departamento tratou uma estagiária de um jeito completamente desrespeitoso na frente de várias pessoas.",
+          "emocao": "disgust",
+          "intensidade": 10
+        },
+        {
+          "trecho": "A menina ficou visivelmente constrangida e eu vi ela engolir seco e continuar como se nada tivesse acontecido.",
+          "emocao": "disgust",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Fiquei com aquela mistura de nojo e raiva que fermenta o dia todo.",
+          "emocao": "anger",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Depois fui ao RH reportar de forma anônima, não sei se vai adiantar, mas não conseguia ficar quieto.",
+          "emocao": "anger",
+          "intensidade": 7
+        },
+        {
+          "trecho": "Voltei pra casa pensando que algumas dinâmicas de poder são absolutamente podres e que às vezes a gente se sente impotente demais.",
+          "emocao": "disgust",
+          "intensidade": 8
+        }
+      ]
+    },
+    "createdAt": "2026-04-23T12:09:48.000Z"
+  },
+  {
+    "id": "bb352238c9f4402aae32cdcf",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Hoje foi daqueles dias simples que a gente esquece de valorizar. Acordei sem despertador, o que por si só já é um luxo. Tomei café devagar, li um pouco, fiz exercício sem pressa. À tarde fui ao mercado e comprei ingredientes pra uma receita que queria tentar há meses, passei horas na cozinha ouvindo música e foi delicioso esse tempo. Convidei meu vizinho pra jantar e a gente ficou conversando até tarde sobre assuntos aleatórios e sem importância, mas foi uma das conversas mais gostosas que tive nos últimos tempos. Às vezes a felicidade está nesses momentos sem grande valor aparente, nesses intervalos tranquilos entre uma coisa e outra.",
+    "analiseIA": {
+      "emocaoPredominante": "joy",
+      "frases": [
+        {
+          "trecho": "Acordei sem despertador, o que por si só já é um luxo.",
+          "emocao": "joy",
+          "intensidade": 7
+        },
+        {
+          "trecho": "Tomei café devagar, li um pouco, fiz exercício sem pressa.",
+          "emocao": "joy",
+          "intensidade": 7
+        },
+        {
+          "trecho": "Passei horas na cozinha ouvindo música e foi delicioso esse tempo.",
+          "emocao": "joy",
+          "intensidade": 8
+        },
+        {
+          "trecho": "A gente ficou conversando até tarde sobre assuntos aleatórios e sem importância, mas foi uma das conversas mais gostosas que tive nos últimos tempos.",
+          "emocao": "joy",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Às vezes a felicidade está nesses momentos sem grande valor aparente.",
+          "emocao": "joy",
+          "intensidade": 8
+        }
+      ]
+    },
+    "createdAt": "2026-04-22T15:52:20.000Z"
+  },
+  {
+    "id": "9905ac4316324a1583fec127",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Vi hoje uma foto antiga minha com amigos de infância e bateu uma nostalgia intensa que ficou comigo o dia todo. A gente era tão próximo e hoje mal nos falamos, não por nenhum motivo específico, a vida foi separando as pessoas como sempre faz. Tentei mandar mensagem pra um deles, mas ficou ali como texto digitado e apagado três vezes porque não sabia o que dizer depois de tanto tempo. À noite fui ver no mapa onde a minha cidade natal fica daqui, são sete horas de ônibus, poderia ir num fim de semana mas nunca vou. Fui dormir pensando que algumas distâncias não são só de quilômetros.",
+    "analiseIA": {
+      "emocaoPredominante": "sadness",
+      "frases": [
+        {
+          "trecho": "Vi uma foto antiga minha com amigos de infância e bateu uma nostalgia intensa que ficou comigo o dia todo.",
+          "emocao": "sadness",
+          "intensidade": 8
+        },
+        {
+          "trecho": "A gente era tão próximo e hoje mal nos falamos, não por nenhum motivo específico.",
+          "emocao": "sadness",
+          "intensidade": 7
+        },
+        {
+          "trecho": "Tentei mandar mensagem pra um deles, mas ficou ali como texto digitado e apagado três vezes.",
+          "emocao": "sadness",
+          "intensidade": 7
+        },
+        {
+          "trecho": "À noite fui ver no mapa onde a minha cidade natal fica daqui, são sete horas, poderia ir mas nunca vou.",
+          "emocao": "sadness",
+          "intensidade": 6
+        },
+        {
+          "trecho": "Fui dormir pensando que algumas distâncias não são só de quilômetros.",
+          "emocao": "sadness",
+          "intensidade": 8
+        }
+      ]
+    },
+    "createdAt": "2026-04-21T16:27:54.000Z"
+  },
+  {
+    "id": "67d8fe8898e141e7a2281775",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Tive uma discussão séria hoje com meu irmão por uma situação que vinha acumulando há meses. Coisas ditas que não deveriam ter sido ditas, em tom mais alto do que o necessário, com aquela imprecisão que as brigas de família têm, onde você começa falando de uma coisa e termina falando de tudo. Depois da ligação fiquei andando pelo apartamento sem conseguir sentar, com a cabeça acelerada e o coração batendo mais rápido que o normal. Tentei me distrair, não consegui. Tentei escrever o que eu estava sentindo, escrevi meia página e apaguei. Sei que amanhã a gente vai falar de novo e vai ficar tudo bem, mas hoje a raiva ainda está muito viva e eu preciso deixar ela existir um pouco antes de resolvê-la.",
+    "analiseIA": {
+      "emocaoPredominante": "anger",
+      "frases": [
+        {
+          "trecho": "Tive uma discussão séria com meu irmão por uma situação que vinha acumulando há meses.",
+          "emocao": "anger",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Coisas ditas que não deveriam ter sido ditas, em tom mais alto do que o necessário.",
+          "emocao": "anger",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Depois da ligação fiquei andando pelo apartamento sem conseguir sentar, com a cabeça acelerada.",
+          "emocao": "anger",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Tentei me distrair, não consegui. Tentei escrever o que estava sentindo, escrevi meia página e apaguei.",
+          "emocao": "anger",
+          "intensidade": 6
+        },
+        {
+          "trecho": "Sei que amanhã vai ficar tudo bem, mas hoje a raiva ainda está muito viva e eu preciso deixar ela existir.",
+          "emocao": "anger",
+          "intensidade": 7
+        }
+      ]
+    },
+    "createdAt": "2026-04-20T13:08:05.000Z"
+  },
+  {
+    "id": "d9ab8b075b6f4730b5dafac3",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Hoje uma pessoa que eu mal conheço fez algo que me surpreendeu completamente. Estava com dificuldade numa tarefa e um colega de outro departamento, que mal troco dez palavras por semana, veio até minha mesa sem que eu pedisse e me ajudou por quase uma hora. Sem pedir nada em troca, sem fazer questão, foi embora na hora que terminou como se fosse a coisa mais natural do mundo. Fiquei olhando pro monitor depois que ele saiu tentando entender o que tinha acontecido. Às vezes a gentileza de um estranho te pega completamente de surpresa justamente porque você não estava esperando por ela. Fui pra casa com uma visão um pouco mais generosa das pessoas.",
+    "analiseIA": {
+      "emocaoPredominante": "surprise",
+      "frases": [
+        {
+          "trecho": "Um colega que mal conheço veio até minha mesa sem que eu pedisse e me ajudou por quase uma hora.",
+          "emocao": "surprise",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Sem pedir nada em troca, foi embora como se fosse a coisa mais natural do mundo.",
+          "emocao": "surprise",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Fiquei olhando pro monitor depois que ele saiu tentando entender o que tinha acontecido.",
+          "emocao": "surprise",
+          "intensidade": 7
+        },
+        {
+          "trecho": "Às vezes a gentileza de um estranho te pega completamente de surpresa.",
+          "emocao": "joy",
+          "intensidade": 7
+        },
+        {
+          "trecho": "Fui pra casa com uma visão um pouco mais generosa das pessoas.",
+          "emocao": "joy",
+          "intensidade": 8
+        }
+      ]
+    },
+    "createdAt": "2026-04-19T21:40:33.000Z"
+  },
+  {
+    "id": "c3ed36e742f142c2a228bdad",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Recebi hoje o resultado de um exame que eu estava esperando com um frio na barriga que não me largou desde que o médico pediu. O resultado foi normal, mas as duas semanas que passei esperando foram difíceis. Percebo agora como eu catastrofizei cada possibilidade, construí cenários horríveis com uma riqueza de detalhes que só a ansiedade sabe fazer. Fico pensando no quanto de energia eu gastei me preocupando com algo que não aconteceu, mas ao mesmo tempo sei que o medo era real mesmo que o perigo não fosse. Hoje à noite comi bem, dormi cedo, e sinto que posso respirar um pouco mais fundo. Mas fica a lição de que preciso aprender a lidar melhor com a incerteza.",
+    "analiseIA": {
+      "emocaoPredominante": "fear",
+      "frases": [
+        {
+          "trecho": "Recebi o resultado de um exame que eu estava esperando com um frio na barriga.",
+          "emocao": "fear",
+          "intensidade": 9
+        },
+        {
+          "trecho": "O resultado foi normal, mas as duas semanas esperando foram difíceis.",
+          "emocao": "fear",
+          "intensidade": 6
+        },
+        {
+          "trecho": "Percebo como eu catastrofizei cada possibilidade, construí cenários horríveis com riqueza de detalhes.",
+          "emocao": "fear",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Fico pensando no quanto de energia gastei me preocupando com algo que não aconteceu.",
+          "emocao": "neutral",
+          "intensidade": 5
+        },
+        {
+          "trecho": "Hoje à noite comi bem, dormi cedo, e sinto que posso respirar um pouco mais fundo.",
+          "emocao": "joy",
+          "intensidade": 6
+        }
+      ]
+    },
+    "createdAt": "2026-04-18T12:52:11.000Z"
+  },
+  {
+    "id": "b0535d650731432cba2e9b89",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Dia de tarefas domésticas hoje. Acordei, organizei o apartamento, lavei roupa, fui ao mercado fazer compras da semana. São coisas que precisam ser feitas e que eu faço sem pensar muito, no ritmo de quem está cumprindo uma lista. À tarde fui ao banco resolver uma pendência burocrática que ficou pra trás por semanas, demorou mais do que eu esperava mas foi resolvida. De noite pedi comida, assisti um documentário sobre a natureza que foi razoável, e fui dormir sem grandes pensamentos. Não tenho muito a comentar sobre hoje. Foi funcional. E às vezes o dia funcional é tudo que a gente precisa.",
+    "analiseIA": {
+      "emocaoPredominante": "neutral",
+      "frases": [
+        {
+          "trecho": "Dia de tarefas domésticas hoje. Organizei o apartamento, lavei roupa, fui ao mercado.",
+          "emocao": "neutral",
+          "intensidade": 4
+        },
+        {
+          "trecho": "São coisas que precisam ser feitas e que eu faço sem pensar muito.",
+          "emocao": "neutral",
+          "intensidade": 3
+        },
+        {
+          "trecho": "À tarde fui ao banco resolver uma pendência burocrática que ficou pra trás por semanas.",
+          "emocao": "neutral",
+          "intensidade": 4
+        },
+        {
+          "trecho": "De noite pedi comida, assisti um documentário sobre a natureza.",
+          "emocao": "neutral",
+          "intensidade": 4
+        },
+        {
+          "trecho": "Não tenho muito a comentar sobre hoje. Foi funcional.",
+          "emocao": "neutral",
+          "intensidade": 3
+        }
+      ]
+    },
+    "createdAt": "2026-04-17T17:36:42.000Z"
+  },
+  {
+    "id": "4dda0fcafbd34afd9a0e5fec",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Terminei hoje um projeto pessoal que eu estava desenvolvendo há quatro meses nas minhas horas livres. É um projeto pequeno, que provavelmente ninguém além de mim vai ver, mas que eu queria fazer pra mim mesmo, pra provar que conseguia. Quando terminei e vi o resultado funcionando do jeito que eu imaginei, bati aquela satisfação enorme de criador, aquela sensação específica de ter tirado algo do nada e colocado no mundo. Fui tomar um sorvete sozinho pra comemorar, o que pode parecer pouco mas foi exatamente o que eu queria. Andei pela cidade ouvindo música, com aquela leveza boa de quem cumpriu algo. Às vezes as conquistas mais significativas são as que só a gente sabe que aconteceram.",
+    "analiseIA": {
+      "emocaoPredominante": "joy",
+      "frases": [
+        {
+          "trecho": "Terminei um projeto pessoal que eu estava desenvolvendo há quatro meses nas minhas horas livres.",
+          "emocao": "joy",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Quando vi o resultado funcionando do jeito que eu imaginei, bati aquela satisfação enorme de criador.",
+          "emocao": "joy",
+          "intensidade": 10
+        },
+        {
+          "trecho": "Fui tomar um sorvete sozinho pra comemorar, o que pode parecer pouco mas foi exatamente o que eu queria.",
+          "emocao": "joy",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Andei pela cidade ouvindo música, com aquela leveza boa de quem cumpriu algo.",
+          "emocao": "joy",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Às vezes as conquistas mais significativas são as que só a gente sabe que aconteceram.",
+          "emocao": "joy",
+          "intensidade": 7
+        }
+      ]
+    },
+    "createdAt": "2026-04-16T08:15:17.000Z"
+  },
+  {
+    "id": "f128e0122eae429d805ff849",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Hoje o meu cachorro foi ao veterinário e o diagnóstico não foi bom. O médico disse que ele está com uma condição que vai precisar de acompanhamento constante, e que dependendo de como evoluir, as opções vão ficando mais difíceis. Meu cachorro tem doze anos, está comigo desde que eu tinha vinte e três, e a ideia de um dia não tê-lo mais me deixa num estado que eu não consigo nem nomear direito. Voltei pra casa e ele ficou do meu lado a tarde toda sem entender nada, do jeito que cachorros ficam, com aquela presença incondicional que te parte o coração justamente porque é tão pura. Fiz carinho nele por horas e fui dormir com ele na cama, coisa que eu raramente deixo.",
+    "analiseIA": {
+      "emocaoPredominante": "sadness",
+      "frases": [
+        {
+          "trecho": "Hoje meu cachorro foi ao veterinário e o diagnóstico não foi bom.",
+          "emocao": "sadness",
+          "intensidade": 9
+        },
+        {
+          "trecho": "O médico disse que ele está com uma condição que vai precisar de acompanhamento constante.",
+          "emocao": "fear",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Meu cachorro tem doze anos, está comigo desde que eu tinha vinte e três.",
+          "emocao": "sadness",
+          "intensidade": 8
+        },
+        {
+          "trecho": "A ideia de um dia não tê-lo mais me deixa num estado que não consigo nem nomear.",
+          "emocao": "sadness",
+          "intensidade": 10
+        },
+        {
+          "trecho": "Fiz carinho nele por horas e fui dormir com ele na cama.",
+          "emocao": "sadness",
+          "intensidade": 7
+        }
+      ]
+    },
+    "createdAt": "2026-04-15T17:19:40.000Z"
+  },
+  {
+    "id": "e03a31ba60c2406bbc8af629",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Me deparei hoje com algo que me deixou com muita raiva: descobri que um colega de trabalho levou crédito por uma ideia que foi inteiramente minha, numa situação onde eu não estava presente pra corrigir. A ideia foi apresentada ao diretor com o nome do meu colega, e quando soube já era tarde demais pra desfazer sem parecer que eu estava criando problema. Tentei conversar com ele de forma direta e ele ficou na defensiva, disse que havia entendido diferente, que não foi intencional, com aquela postura de quem sabe exatamente o que fez. Fiquei com aquela raiva fria que é diferente da raiva quente, é mais calculada, mais difícil de soltar. Ainda não sei como vou lidar com isso.",
+    "analiseIA": {
+      "emocaoPredominante": "anger",
+      "frases": [
+        {
+          "trecho": "Descobri que um colega levou crédito por uma ideia que foi inteiramente minha.",
+          "emocao": "anger",
+          "intensidade": 10
+        },
+        {
+          "trecho": "A ideia foi apresentada ao diretor com o nome do meu colega, e quando soube já era tarde demais.",
+          "emocao": "anger",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Tentei conversar com ele e ele ficou na defensiva, com aquela postura de quem sabe exatamente o que fez.",
+          "emocao": "anger",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Fiquei com aquela raiva fria que é diferente da raiva quente, é mais calculada, mais difícil de soltar.",
+          "emocao": "anger",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Ainda não sei como vou lidar com isso.",
+          "emocao": "fear",
+          "intensidade": 5
+        }
+      ]
+    },
+    "createdAt": "2026-04-14T17:09:06.000Z"
+  },
+  {
+    "id": "977083b7d0c744fca75be0a1",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Fui hoje ao show de uma banda que eu amo há anos e que raramente vem por aqui. Cheguei duas horas antes, fiquei na fila conversando com pessoas que também amam a mesma música, aquela sensação de pertencimento que os shows têm de único. Quando as luzes apagaram e os primeiros acordes tocaram eu senti arrepios nos braços que não vão embora fácil. Cantei o show inteiro, às vezes sem saber que sabia a letra de cor, o corpo foi na frente da cabeça. Voltei pra casa com os ouvidos zumbindo e a garganta rouca e um sorriso que não saia do rosto. Música ao vivo tem uma qualidade de presente perfeito que não existe em mais nada.",
+    "analiseIA": {
+      "emocaoPredominante": "joy",
+      "frases": [
+        {
+          "trecho": "Fui ao show de uma banda que eu amo há anos e que raramente vem por aqui.",
+          "emocao": "joy",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Quando as luzes apagaram e os primeiros acordes tocaram eu senti arrepios nos braços.",
+          "emocao": "surprise",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Cantei o show inteiro, às vezes sem saber que sabia a letra de cor.",
+          "emocao": "joy",
+          "intensidade": 10
+        },
+        {
+          "trecho": "Voltei pra casa com os ouvidos zumbindo e a garganta rouca e um sorriso que não saia do rosto.",
+          "emocao": "joy",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Música ao vivo tem uma qualidade de presente perfeito que não existe em mais nada.",
+          "emocao": "joy",
+          "intensidade": 9
+        }
+      ]
+    },
+    "createdAt": "2026-04-13T10:25:29.000Z"
+  },
+  {
+    "id": "ea4654087c95434cb6edb0c4",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Hoje tive que tomar uma decisão importante que eu venho adiando faz meses. É uma mudança de rota na minha carreira que pode dar muito certo ou pode dar muito errado, e o problema é que não tem como saber antes de tentar. Passsei horas analisando prós e contras, conversando comigo mesmo, escrevendo num papel. Minha maior dificuldade com essa decisão não é a decisão em si, é o medo do arrependimento, o medo de olhar pra trás daqui a cinco anos e pensar que escolhi errado. No final do dia eu tomei a decisão. Não sei se foi a certa, mas foi minha. E às vezes é isso que dá pra fazer.",
+    "analiseIA": {
+      "emocaoPredominante": "fear",
+      "frases": [
+        {
+          "trecho": "Hoje tive que tomar uma decisão importante que eu venho adiando faz meses.",
+          "emocao": "fear",
+          "intensidade": 7
+        },
+        {
+          "trecho": "É uma mudança de rota na minha carreira que pode dar muito certo ou muito errado.",
+          "emocao": "fear",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Minha maior dificuldade é o medo do arrependimento, o medo de olhar pra trás e pensar que escolhi errado.",
+          "emocao": "fear",
+          "intensidade": 9
+        },
+        {
+          "trecho": "No final do dia eu tomei a decisão. Não sei se foi a certa, mas foi minha.",
+          "emocao": "neutral",
+          "intensidade": 5
+        },
+        {
+          "trecho": "Às vezes é isso que dá pra fazer.",
+          "emocao": "neutral",
+          "intensidade": 4
+        }
+      ]
+    },
+    "createdAt": "2026-04-12T18:20:51.000Z"
+  },
+  {
+    "id": "97428be38eef4f538890e65d",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Li hoje uma notícia que me deixou com aquela sensação de mal-estar que alguns conteúdos provocam, não o tipo que passa rápido mas o que fica fermentando. Era sobre uma situação de negligência institucional com pessoas vulneráveis que poderia ter sido evitada e que foi ignorada por anos por quem tinha obrigação de agir. Fiquei pensando em como sistemas podem ser tão falhos e ao mesmo tempo tão eficientes em se proteger. Tentei não ficar ruminando, mas é difícil quando a coisa é desse tamanho. Conversei com um amigo que também tinha lido e a gente ficou em silêncio por um tempo depois de trocar impressões. Às vezes o mundo apresenta versões de si mesmo que são difíceis de engolir.",
+    "analiseIA": {
+      "emocaoPredominante": "disgust",
+      "frases": [
+        {
+          "trecho": "Li uma notícia sobre negligência institucional com pessoas vulneráveis que poderia ter sido evitada.",
+          "emocao": "disgust",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Fiquei pensando em como sistemas podem ser tão falhos e tão eficientes em se proteger ao mesmo tempo.",
+          "emocao": "disgust",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Tentei não ficar ruminando, mas é difícil quando a coisa é desse tamanho.",
+          "emocao": "disgust",
+          "intensidade": 7
+        },
+        {
+          "trecho": "A gente ficou em silêncio por um tempo depois de trocar impressões.",
+          "emocao": "neutral",
+          "intensidade": 4
+        },
+        {
+          "trecho": "Às vezes o mundo apresenta versões de si mesmo que são difíceis de engolir.",
+          "emocao": "disgust",
+          "intensidade": 7
+        }
+      ]
+    },
+    "createdAt": "2026-04-11T19:50:03.000Z"
+  },
+  {
+    "id": "42064a70387d474f8b1cf9fd",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Passei o fim de semana fora da cidade com minha namorada, numa cidade pequena que nenhum dos dois conhecia. Foi daquelas viagens sem roteiro muito definido, entramos em cafés aleatórios, andamos por ruas sem saber onde iam dar, achamos uma livraria de usados onde ficamos uma hora sem falar muito. À noite jantamos num lugar simples onde a comida era absurdamente boa, e ficamos conversando até a sobremesa sobre coisas grandes e coisas pequenas sem perceber o tempo passando. Dormi num colchão diferente do meu e dormi melhor do que em semanas. Viagem não precisa ser grande pra ser restauradora.",
+    "analiseIA": {
+      "emocaoPredominante": "joy",
+      "frases": [
+        {
+          "trecho": "Passei o fim de semana numa cidade pequena que nenhum dos dois conhecia, sem roteiro muito definido.",
+          "emocao": "joy",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Entramos em cafés aleatórios, andamos por ruas sem saber onde iam dar.",
+          "emocao": "joy",
+          "intensidade": 7
+        },
+        {
+          "trecho": "Achamos uma livraria de usados onde ficamos uma hora sem falar muito.",
+          "emocao": "joy",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Jantamos num lugar simples onde a comida era absurdamente boa.",
+          "emocao": "joy",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Dormi num colchão diferente do meu e dormi melhor do que em semanas.",
+          "emocao": "joy",
+          "intensidade": 8
+        }
+      ]
+    },
+    "createdAt": "2026-04-10T10:19:52.000Z"
+  },
+  {
+    "id": "2a025775b8a2496d854f1407",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Hoje foi o último dia de uma amiga no trabalho, ela está indo morar em outro país e essa foi a última vez que a vejo pessoalmente por um tempo longo, talvez indefinido. A gente almoçou juntos e tentou não falar do óbvio, ficamos em assuntos leves, mas em algum momento o silêncio disse mais do que a conversa. Na despedida no elevador ela disse 'a gente se fala' e eu disse 'com certeza' e os dois sabemos que não é bem assim, que a distância vai fazendo o que a distância faz. Fui pra mesa e fiquei olhando pro computador por uns minutos sem conseguir trabalhar. Vou sentir falta.",
+    "analiseIA": {
+      "emocaoPredominante": "sadness",
+      "frases": [
+        {
+          "trecho": "Hoje foi o último dia de uma amiga no trabalho, ela está indo morar em outro país.",
+          "emocao": "sadness",
+          "intensidade": 8
+        },
+        {
+          "trecho": "A gente almoçou juntos e tentou não falar do óbvio, ficamos em assuntos leves.",
+          "emocao": "sadness",
+          "intensidade": 6
+        },
+        {
+          "trecho": "Em algum momento o silêncio disse mais do que a conversa.",
+          "emocao": "sadness",
+          "intensidade": 7
+        },
+        {
+          "trecho": "Na despedida ela disse 'a gente se fala' e eu disse 'com certeza' e os dois sabemos que não é bem assim.",
+          "emocao": "sadness",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Fui pra mesa e fiquei olhando pro computador por uns minutos sem conseguir trabalhar. Vou sentir falta.",
+          "emocao": "sadness",
+          "intensidade": 8
+        }
+      ]
+    },
+    "createdAt": "2026-04-09T20:35:05.000Z"
+  },
+  {
+    "id": "10f72c93278b4e258da9e13e",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Hoje minha mãe me ligou com uma novidade que não esperava em nada: ela decidiu fazer um curso de pintura. Minha mãe tem sessenta e dois anos, nunca fez nada parecido na vida, e simplesmente resolveu que quer aprender a pintar agora. Fiquei sem palavras por um momento, não de forma negativa, mas porque me pegou de surpresa a iniciativa dela, essa capacidade de começar algo novo nessa fase. Ela me contou com uma animação que eu não ouvia na voz dela há muito tempo, detalhes sobre o professor, sobre os materiais que comprou, sobre o que quer pintar primeiro. Desliguei o telefone com um sorriso enorme pensando que nunca é tarde pra nada e que às vezes são as pessoas mais próximas que nos ensinam isso.",
+    "analiseIA": {
+      "emocaoPredominante": "surprise",
+      "frases": [
+        {
+          "trecho": "Minha mãe me ligou com uma novidade: ela decidiu fazer um curso de pintura aos sessenta e dois anos.",
+          "emocao": "surprise",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Fiquei sem palavras, não de forma negativa, mas porque me pegou de surpresa a iniciativa dela.",
+          "emocao": "surprise",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Ela me contou com uma animação que eu não ouvia na voz dela há muito tempo.",
+          "emocao": "joy",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Desliguei o telefone com um sorriso enorme pensando que nunca é tarde pra nada.",
+          "emocao": "joy",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Às vezes são as pessoas mais próximas que nos ensinam isso.",
+          "emocao": "joy",
+          "intensidade": 8
+        }
+      ]
+    },
+    "createdAt": "2026-04-08T08:41:59.000Z"
+  },
+  {
+    "id": "7acb57016c8f4a6eaa0d39ab",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Dia sem muita história hoje. Acordei um pouco cansado por ter dormido mal, mas nada que impedisse o dia de funcionar. Trabalho normal, reuniões que correram bem sem ser excitantes. Almocei sozinho ouvindo um podcast sobre história antiga que estava pela metade. À tarde me concentrei numa tarefa técnica que exigiu atenção mas que foi satisfatória de terminar. Fiz academia depois do trabalho, o que ajudou a clarear um pouco. Jantei, fui dormir razoavelmente cedo. Não foi um dia que vai ficar na memória, mas foi um dia que cumpriu o que precisava cumprir.",
+    "analiseIA": {
+      "emocaoPredominante": "neutral",
+      "frases": [
+        {
+          "trecho": "Acordei um pouco cansado por ter dormido mal, mas nada que impedisse o dia de funcionar.",
+          "emocao": "neutral",
+          "intensidade": 4
+        },
+        {
+          "trecho": "Trabalho normal, reuniões que correram bem sem ser excitantes.",
+          "emocao": "neutral",
+          "intensidade": 3
+        },
+        {
+          "trecho": "Almocei sozinho ouvindo um podcast sobre história antiga que estava pela metade.",
+          "emocao": "neutral",
+          "intensidade": 4
+        },
+        {
+          "trecho": "Me concentrei numa tarefa técnica que exigiu atenção mas foi satisfatória de terminar.",
+          "emocao": "neutral",
+          "intensidade": 5
+        },
+        {
+          "trecho": "Não foi um dia que vai ficar na memória, mas cumpriu o que precisava cumprir.",
+          "emocao": "neutral",
+          "intensidade": 3
+        }
+      ]
+    },
+    "createdAt": "2026-04-07T08:40:42.000Z"
+  },
+  {
+    "id": "9472fa164474425787e410b2",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Tive hoje uma experiência de atendimento que me irritou profundamente. Fui resolver uma situação num órgão público, cheguei no horário marcado, esperei mais de duas horas, e quando finalmente fui atendido o funcionário me informou que precisava de um documento que ninguém havia mencionado em nenhum dos três contatos anteriores que eu havia feito. Tentei explicar com calma que havia confirmado os documentos necessários e o atendente simplesmente repetiu que era necessário, sem nenhuma disposição para ajudar. Saí de lá sem resolver nada, com tempo perdido, energia gasta, e uma irritação que levei pra casa. A burocracia mal gerida é uma das formas mais eficientes de tornar as pessoas piores.",
+    "analiseIA": {
+      "emocaoPredominante": "anger",
+      "frases": [
+        {
+          "trecho": "Cheguei no horário marcado, esperei mais de duas horas.",
+          "emocao": "anger",
+          "intensidade": 7
+        },
+        {
+          "trecho": "O funcionário informou que precisava de um documento que ninguém havia mencionado em nenhum contato anterior.",
+          "emocao": "anger",
+          "intensidade": 9
+        },
+        {
+          "trecho": "O atendente simplesmente repetiu que era necessário, sem nenhuma disposição para ajudar.",
+          "emocao": "anger",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Saí sem resolver nada, com tempo perdido, energia gasta, e uma irritação que levei pra casa.",
+          "emocao": "anger",
+          "intensidade": 8
+        },
+        {
+          "trecho": "A burocracia mal gerida é uma das formas mais eficientes de tornar as pessoas piores.",
+          "emocao": "disgust",
+          "intensidade": 7
+        }
+      ]
+    },
+    "createdAt": "2026-04-06T19:48:05.000Z"
+  },
+  {
+    "id": "85a727b8b8a0419b96f1c929",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Hoje fui visitar minha avó que mora a uma hora daqui e que eu não via pessoalmente desde o Natal. Ela me recebeu com a mesa cheia de comida que ela sabia que eu gosto, o tipo de atenção silenciosa que só avó tem. Ficamos a tarde toda conversando sobre coisas de família, sobre histórias antigas que ela conta e que eu ouço de um jeito diferente agora que sou adulto. Ela tem oitenta e um anos e ainda tem uma clareza e um humor que me impressionam. Na hora de ir embora ela me abraçou e disse que estava orgulhosa de mim, sem motivo específico, só porque sim, e eu precisava disso mais do que sabia. Voltei com o coração cheio.",
+    "analiseIA": {
+      "emocaoPredominante": "joy",
+      "frases": [
+        {
+          "trecho": "Fui visitar minha avó que não via desde o Natal, ela me recebeu com a mesa cheia de comida.",
+          "emocao": "joy",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Ficamos a tarde toda conversando sobre histórias antigas que ela conta e que eu ouço diferente agora.",
+          "emocao": "joy",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Ela tem oitenta e um anos e ainda tem uma clareza e um humor que me impressionam.",
+          "emocao": "surprise",
+          "intensidade": 7
+        },
+        {
+          "trecho": "Na hora de ir embora ela me abraçou e disse que estava orgulhosa de mim, sem motivo específico.",
+          "emocao": "joy",
+          "intensidade": 10
+        },
+        {
+          "trecho": "Voltei com o coração cheio.",
+          "emocao": "joy",
+          "intensidade": 9
+        }
+      ]
+    },
+    "createdAt": "2026-04-05T23:30:01.000Z"
+  },
+  {
+    "id": "f616fb42b1d741fc9723c725",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Hoje tive um pesadelo tão vívido que quando acordei levei alguns segundos pra entender que era sonho. Era daqueles pesadelos de perseguição, onde você corre mas suas pernas não obedecem, e acordei com o coração acelerado e os lençóis torcidos. Tentei voltar a dormir mas fiquei ali de olhos abertos no escuro por um tempo longo com uma sensação de ameaça que não fazia sentido racional mas que o corpo não queria largar. De dia fui levando normalmente mas a sensação ficou como um resíduo, aquela vaga inquietação de quem dormiu mal de um jeito específico. À noite hesitei antes de apagar a luz, o que me pareceu bobagem imediatamente, mas o corpo não raciocina com a mesma velocidade que a cabeça.",
+    "analiseIA": {
+      "emocaoPredominante": "fear",
+      "frases": [
+        {
+          "trecho": "Tive um pesadelo tão vívido que levei segundos pra entender que era sonho.",
+          "emocao": "fear",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Acordei com o coração acelerado e os lençóis torcidos.",
+          "emocao": "fear",
+          "intensidade": 9
+        },
+        {
+          "trecho": "Fiquei de olhos abertos no escuro com uma sensação de ameaça que não fazia sentido racional.",
+          "emocao": "fear",
+          "intensidade": 8
+        },
+        {
+          "trecho": "De dia fui levando normalmente mas a sensação ficou como um resíduo.",
+          "emocao": "fear",
+          "intensidade": 5
+        },
+        {
+          "trecho": "À noite hesitei antes de apagar a luz, o que me pareceu bobagem imediatamente.",
+          "emocao": "fear",
+          "intensidade": 6
+        }
+      ]
+    },
+    "createdAt": "2026-04-04T18:24:43.000Z"
+  },
+  {
+    "id": "8658d6e8213044e7b90353c0",
+    "pacienteId": "69d41d22a12ea5b2fba9b4ca",
+    "texto": "Hoje foi daqueles dias que a gente gostaria de guardar numa caixinha. Acordei com sol entrando pela janela, o tipo de manhã que já começa prometendo. Fui ao mercado e encontrei por acaso um amigo que não via há mais de um ano, a gente ficou quase uma hora parado na calçada conversando. À tarde veio uma mensagem do meu irmão com uma foto da sobrinha que eu não via crescer, e ela já está com dentes e tudo, e eu fiquei olhando pro telefone com aquele carinho ridículo que a gente sente por crianças que são da família. De noite choveu, aquela chuva de fim de tarde que cheira gostoso, e eu fiquei na janela ouvindo por um tempo sem fazer nada. Foi um dia que não exigiu nada de mim e me deu muita coisa.",
+    "analiseIA": {
+      "emocaoPredominante": "joy",
+      "frases": [
+        {
+          "trecho": "Acordei com sol entrando pela janela, o tipo de manhã que já começa prometendo.",
+          "emocao": "joy",
+          "intensidade": 8
+        },
+        {
+          "trecho": "Fui ao mercado e encontrei um amigo que não via há mais de um ano.",
+          "emocao": "surprise",
+          "intensidade": 8
+        },
+        {
+          "trecho": "À tarde veio uma foto da sobrinha que eu não via crescer, e eu fiquei olhando pro telefone com carinho ridículo.",
+          "emocao": "joy",
+          "intensidade": 9
+        },
+        {
+          "trecho": "De noite choveu, aquela chuva de fim de tarde que cheira gostoso.",
+          "emocao": "joy",
+          "intensidade": 7
+        },
+        {
+          "trecho": "Foi um dia que não exigiu nada de mim e me deu muita coisa.",
+          "emocao": "joy",
+          "intensidade": 9
+        }
+      ]
+    },
+    "createdAt": "2026-04-03T22:42:28.000Z"
+  }
+]

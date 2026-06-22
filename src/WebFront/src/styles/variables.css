@@ -1,0 +1,50 @@
+:root {
+  
+  
+  --color-primary: #6B4FA0;
+  --color-accent: #E8805A;
+  --color-background: #FFFFFF;
+  --color-surface: #EDE9F6;
+
+  
+  --color-text: #6B4FA0;
+  --color-text-light: #7A7A7A;
+  --color-text-muted: #AAAAAA;
+
+  
+  --color-input-bg: #c2bdca !important;
+  --color-input-border: #D6CCE8;
+  --color-input-focus: #6B4FA0;
+
+  
+  --color-success: #4CAF50;
+  --color-error: #E05A5A;
+  --color-warning: #F5A623;
+
+  
+  --border-radius-sm: 8px;
+  --border-radius-md: 12px;
+  --border-radius-lg: 20px;
+  --border-radius-full: 9999px;
+
+  --shadow-sm: 0 2px 8px rgba(107, 79, 160, 0.08);
+  --shadow-md: 0 4px 16px rgba(107, 79, 160, 0.14);
+
+  
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+
+  
+  --font-sm: 0.875rem;
+  --font-md: 1rem;
+  --font-lg: 1.125rem;
+  --font-xl: 1.5rem;
+  --font-2xl: 2rem;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}

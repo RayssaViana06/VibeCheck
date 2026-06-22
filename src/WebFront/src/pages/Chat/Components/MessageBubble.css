@@ -1,0 +1,21 @@
+.messageRow{display:flex;margin-bottom:18px}
+.messageRow.other{justify-content:flex-start}
+.messageRow.mine{justify-content:flex-end}
+.bubble{
+	max-width:60%;
+	padding:12px 14px;
+	border-radius:16px;
+	position:relative;
+	box-shadow:0 10px 20px rgba(35, 26, 54, 0.08);
+}
+.bubbleOther{
+	background:#ffffff;
+	border:1px solid #e6dff4;
+	color:#2a1c48;
+}
+.bubbleMine{
+	background:linear-gradient(135deg, #5E499D 0%, #7a5ed8 100%);
+	color:white;
+}
+.bubbleText{margin-bottom:6px;line-height:1.4}
+.bubbleTime{font-size:11px;opacity:0.7;text-align:right}

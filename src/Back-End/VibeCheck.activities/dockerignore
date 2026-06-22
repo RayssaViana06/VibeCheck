@@ -1,0 +1,30 @@
+# Build
+**/bin/
+**/obj/
+
+# Credenciais — NUNCA na imagem
+.env
+appsettings.Development.json
+appsettings.Production.json
+**/*.pfx
+**/*.p12
+**/secrets.json
+
+# Git
+.git/
+.gitignore
+
+# IDEs
+.vs/
+.vscode/
+.idea/
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Logs e temporários
+**/Logs/
+**/logs/
+*.log

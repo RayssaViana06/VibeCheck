@@ -1,0 +1,25 @@
+.chatHeader{
+  height:76px;
+  border-bottom:1px solid #e5dbf5;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 24px;
+  background:linear-gradient(90deg, #ffffff 0%, #f6f0ff 100%);
+}
+.headerLeft{display:flex;align-items:center;gap:12px}
+.avatarCircle{
+  width:46px;
+  height:46px;
+  border-radius:50%;
+  background:linear-gradient(135deg, #5E499D 0%, #7a5ed8 100%);
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:800;
+  box-shadow:0 6px 16px rgba(94, 73, 157, 0.35);
+}
+.headerInfo .name{font-weight:800;font-size:18px;color:#2a1c48}
+.headerInfo .status{font-size:12px;color:#7b6fa6}
+.headerRight{color:#5E499D;font-weight:700}

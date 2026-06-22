@@ -1,0 +1,515 @@
+@import '../../styles/variables.css';
+
+.home-psi-page {
+  min-height: 100vh;
+  background-color: var(--color-background);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── NAVBAR ──────────────────────────────────────── */
+.navbar-psi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5E499D;
+  height: 70px;
+  padding: 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.home-psi-header {
+  /* roxo mais claro */
+  background-color: #7c66c0;
+}
+
+.navbar-psi-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-psi-logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.navbar-psi-titulo {
+  color: white;
+  font-size: var(--font-lg);
+  font-weight: var(--font-weight-bold);
+}
+
+.navbar-psi-botoes {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-psi-btn {
+  padding: 4px 12px;
+  border-radius: var(--border-radius-full);
+  font-size: var(--font-md);
+  font-weight: var(--font-weight-semibold);
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.navbar-psi-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Item ativo na navbar (Pacientes destacado) */
+.navbar-psi-btn-ativo {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-psi-chat {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #c86f7a;
+  padding: 4px 14px;
+}
+
+.navbar-psi-chat:hover {
+  background-color: #b55e6a;
+}
+
+.navbar-psi-chat-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* ── HEADER DE BOAS-VINDAS ───────────────────────── */
+/* Integrado ao fundo roxo da página, sem card separado */
+.home-psi-header {
+  background-color: #7c66c0;
+  padding: 14px 24px 18px;
+  width: 100%;
+}
+
+.home-psi-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.home-psi-saudacao {
+  font-size: var(--font-xl);
+  font-weight: var(--font-weight-bold);
+  color: white;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-psi-subtitulo {
+  font-size: var(--font-sm);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.home-psi-header-icon {
+  font-size: 2.5rem;
+}
+
+/* ── CONTEÚDO PRINCIPAL ──────────────────────────── */
+.home-psi-content {
+  padding: 24px 16px;
+  max-width: 680px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* ── STATS ───────────────────────────────────────── */
+.home-psi-stats {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.home-psi-stat-card {
+  flex: 1;
+  background-color: var(--color-surface);
+  border-radius: var(--border-radius-md);
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  box-shadow: var(--shadow-sm);
+}
+
+.home-psi-stat-num {
+  font-size: var(--font-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+}
+
+.home-psi-stat-label {
+  font-size: var(--font-sm);
+  color: var(--color-text-light);
+}
+
+/* ── TIMELINE ────────────────────────────────────── */
+.home-psi-timeline-titulo {
+  font-size: var(--font-sm);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-light);
+  letter-spacing: 0.06em;
+  margin-bottom: 16px;
+}
+
+.home-psi-timeline {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 600px;
+  overflow-y: auto;
+  padding-right: 4px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.home-psi-timeline::-webkit-scrollbar {
+  display: none;
+}
+
+.home-psi-timeline-linha {
+  position: absolute;
+  left: 7px;
+  top: 0;
+  width: 2px;
+  background-color: var(--color-input-border);
+  height: 100%;
+  min-height: 100%;
+}
+
+.home-psi-timeline-item {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.home-psi-timeline-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  flex-shrink: 0;
+  margin-top: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.home-psi-entrada-card {
+  flex: 1;
+  background-color: var(--color-surface);
+  border-radius: var(--border-radius-md);
+  padding: 14px 16px;
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: box-shadow 0.2s, transform 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.home-psi-entrada-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.home-psi-badge {
+  font-size: var(--font-sm);
+  color: var(--color-primary);
+  background-color: var(--color-input-bg);
+  border: 1px solid var(--color-primary);
+  border-radius: var(--border-radius-full);
+  padding: 2px 10px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.home-psi-entrada-card:hover .home-psi-badge {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.home-psi-entrada-paciente {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.home-psi-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-sm);
+  font-weight: var(--font-weight-bold);
+  flex-shrink: 0;
+}
+
+.home-psi-paciente-nome {
+  font-size: var(--font-md);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  display: block;
+}
+
+.home-psi-entrada-data {
+  font-size: var(--font-sm);
+  color: var(--color-text-light);
+  display: block;
+}
+
+.home-psi-loading,
+.home-psi-erro,
+.home-psi-vazio {
+  font-size: var(--font-sm);
+  color: var(--color-text-light);
+  text-align: center;
+  padding: var(--spacing-md);
+}
+
+.home-psi-erro {
+  color: var(--color-error);
+}
+
+/* ── MODAL ───────────────────────────────────────── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-card {
+  background-color: var(--color-surface);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: var(--spacing-xl);
+  width: 100%;
+  max-width: 440px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h3 {
+  font-size: var(--font-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+}
+
+.modal-fechar {
+  background: none;
+  border: none;
+  font-size: var(--font-lg);
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+
+.modal-fechar:hover {
+  color: var(--color-text);
+}
+
+.modal-subtitulo {
+  font-size: var(--font-sm);
+  color: var(--color-text-light);
+}
+
+.modal-input-row {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+.modal-input {
+  flex: 1;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 1px solid var(--color-input-border);
+  border-radius: var(--border-radius-sm);
+  background-color: var(--color-input-bg);
+  font-size: var(--font-md);
+  color: var(--color-text);
+}
+
+.modal-input:focus {
+  border-color: var(--color-input-focus);
+}
+
+.modal-input-erro {
+  border-color: var(--color-error);
+}
+
+.modal-btn-buscar {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: var(--border-radius-sm);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-md);
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+.modal-btn-buscar:hover {
+  opacity: 0.9;
+}
+
+.modal-btn-buscar:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.modal-aviso {
+  font-size: var(--font-sm);
+  color: var(--color-text-muted);
+}
+
+.modal-erro-msg {
+  font-size: var(--font-sm);
+  color: var(--color-error);
+  background-color: #fdecea;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--border-radius-sm);
+}
+
+.modal-btn-fechar {
+  width: 100%;
+  padding: var(--spacing-sm);
+  border: 1px solid var(--color-input-border);
+  border-radius: var(--border-radius-full);
+  font-size: var(--font-md);
+  color: var(--color-text-light);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.modal-btn-fechar:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.modal-sucesso-emoji {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.modal-sucesso-titulo {
+  font-size: var(--font-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  text-align: center;
+}
+
+.modal-sucesso-texto {
+  font-size: var(--font-sm);
+  color: var(--color-text-light);
+  text-align: center;
+}
+
+.modal-btn-confirmar {
+  width: 100%;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: var(--border-radius-full);
+  font-size: var(--font-md);
+  font-weight: var(--font-weight-bold);
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.modal-btn-confirmar:hover {
+  opacity: 0.9;
+}
+
+/* ── TIMELINE HEADER + BOTÃO VINCULAR ────────────── */
+.home-psi-timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.home-psi-btn-vincular {
+  padding: var(--spacing-xs) var(--spacing-md);
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: var(--border-radius-full);
+  font-size: var(--font-sm);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.home-psi-btn-vincular:hover {
+  opacity: 0.9;
+}
+
+/* ── RESPONSIVO ──────────────────────────────────── */
+@media (max-width: 480px) {
+  .navbar-psi {
+    padding: 0 14px;
+    height: 60px;
+  }
+
+  .navbar-psi-titulo {
+    font-size: var(--font-md);
+  }
+
+  .navbar-psi-btn {
+    font-size: var(--font-sm);
+    padding: 4px 8px;
+  }
+
+  .home-psi-header {
+    padding: 16px 16px 24px;
+  }
+
+  .home-psi-content {
+    padding: 16px 12px;
+  }
+
+  .home-psi-saudacao {
+    font-size: var(--font-lg);
+  }
+
+  .home-psi-stats {
+    gap: 8px;
+  }
+
+  .home-psi-stat-card {
+    padding: 12px 8px;
+  }
+
+  .home-psi-stat-num {
+    font-size: var(--font-xl);
+  }
+}

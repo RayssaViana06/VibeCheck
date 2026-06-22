@@ -1,0 +1,140 @@
+.logo {
+    width: 50px;
+    height: 53px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #5E499D;
+    height: 75px;
+    padding: 22px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.wrapperLogo {
+    display: flex;
+    gap: 8px;
+}
+
+.logoTitulo {
+    color: white;
+}
+
+.botoesNav {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.pacientesBtn {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.pacientesBtn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.atividadesBtn {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.atividadesBtn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.chatBtn {
+    display: flex;
+    padding: 4px 12px;
+    background-color: #c86f7a;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    align-items: center;
+    gap: 6px;
+    letter-spacing: 1.2px;
+}
+
+.chatIcon {
+    width: 22px;
+    height: 22px;
+}
+
+.logoutButtonPsicologo {
+    display: flex;
+    gap: 4px;
+    background-color: #7c66c0;
+    padding: 4px 10px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.logout {
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.menuSanduiche {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    line-height: 1;
+    padding: 4px;
+}
+
+.menuMobile {
+    position: absolute;
+    top: 75px;
+    right: 0;
+    background-color: #5E499D;
+    width: 210px;
+    padding: 8px 0;
+    border-radius: 0 0 0 12px;
+    box-shadow: -2px 4px 12px rgba(0, 0, 0, 0.25);
+    z-index: 100;
+}
+
+.menuMobile a {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.menuMobile a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.menuMobileIcones {
+    width: 20px;
+    height: 20px;
+}
+
+/* ── Responsivo ── */
+@media (max-width: 600px) {
+    .botoesNav {
+        display: none;
+    }
+
+    .menuSanduiche {
+        display: block;
+    }
+}

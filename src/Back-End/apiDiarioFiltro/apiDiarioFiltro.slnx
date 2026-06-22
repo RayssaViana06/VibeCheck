@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="apiDiarioFiltro.Api/apiDiarioFiltro.Api.csproj" Id="75e481d8-0d55-46f7-adc7-62ae2b671648" />
+  <Project Path="apiDiarioFiltro.Domain/apiDiarioFiltro.Domain.csproj" Id="73ef1174-a196-4796-b564-69937006fe57" />
+  <Project Path="apiDiarioFiltro.Infra/apiDiarioFiltro.Infra.csproj" Id="18e3648d-6c28-494e-9993-88610010c2f9" />
+</Solution>

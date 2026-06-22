@@ -1,0 +1,18 @@
+services:
+  atividades-api:
+    build: .
+    container_name: atividades-api
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - MongoDB__ConnectionString=
+      - MongoDB__DatabaseName=psicologia_db
+      - MongoDB__ActivitiesCollection=activities
+      - DiarioDB__ConnectionString=
+      - DiarioDB__DatabaseName=diario_terapeutico
+      - DiarioDB__DiarioCollection=diaryEntries
+      - Jwt__SecretKey=
+      - Jwt__Issuer=auth-service
+      - Jwt__Audience=vibecheck-app
+    restart: unless-stopped

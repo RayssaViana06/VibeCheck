@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Nunito', sans-serif; background: #f0eef8; }
+
+.navbar {
+  background: #5c4faa;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+}
+.navbar-brand {
+  display: flex; align-items: center; gap: 0.5rem;
+  color: #fff; font-size: 1rem; font-weight: 700;
+}
+.navbar-logo {
+  width: 32px; height: 32px; border-radius: 8px;
+  background: #fff; display: flex; align-items: center;
+  justify-content: center; font-size: 1rem;
+}
+.navbar-links { display: flex; gap: 0.25rem; align-items: center; }
+.nav-link {
+  padding: 0.35rem 1rem; border-radius: 20px;
+  font-size: 0.85rem; font-weight: 600;
+  color: rgba(255,255,255,0.8); cursor: pointer;
+  border: none; background: transparent;
+  font-family: 'Nunito', sans-serif; transition: all 0.15s;
+}
+.nav-link:hover { color: #fff; background: rgba(255,255,255,0.1); }
+.nav-link.ativo { background: rgba(255,255,255,0.2); color: #fff; }
+.nav-link.chat {
+  background: #e07a5f; color: #fff;
+  display: flex; align-items: center; gap: 0.35rem;
+}
+.nav-link.chat:hover { background: #c96a4f; }
+
+/* PAGE */
+.nova-entrada-page {
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.voltar-link {
+  font-size: 0.85rem;
+  color: #8a7bbf;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 0.75rem;
+  display: inline-block;
+  transition: color 0.15s;
+}
+.voltar-link:hover { color: #5c4faa; }
+
+.nova-entrada-page h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-bottom: 0.35rem;
+}
+
+.nova-entrada-data {
+  font-size: 0.85rem;
+  color: #8a7bbf;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 1.5rem;
+}
+
+/* TEXTAREA */
+.textarea-wrapper {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid rgba(92,79,170,0.15);
+  padding: 1rem 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.entrada-textarea {
+  width: 100%;
+  min-height: 200px;
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.6;
+  background: transparent;
+}
+
+.entrada-textarea::placeholder {
+  color: #bbb;
+}
+
+.contador {
+  text-align: right;
+  font-size: 0.78rem;
+  color: #b0a4d8;
+  margin-bottom: 1.25rem;
+}
+
+.contador.limite { color: #e07a5f; }
+
+/* BOTÕES */
+.botoes-row {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.btn-cancelar {
+  flex: 1;
+  background: #fff;
+  color: #5c4faa;
+  border: 1.5px solid #c8bfef;
+  border-radius: 10px;
+  padding: 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.btn-cancelar:hover { background: #f0eef8; }
+
+.btn-salvar {
+  flex: 2;
+  background: #5c4faa;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.btn-salvar:hover { background: #4a3d8f; }
+.btn-salvar:disabled { background: #b0a4d8; cursor: not-allowed; }
+
+.hint-bar {
+  border: 1px dashed #c8bfef;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  font-size: 0.78rem;
+  color: #9b8fd4;
+}

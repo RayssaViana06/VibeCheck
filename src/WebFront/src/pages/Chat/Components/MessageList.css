@@ -1,0 +1,28 @@
+.messageList{
+	flex:1;
+	padding:28px 32px 18px;
+	overflow:auto;
+	background:transparent;
+	min-height:0;
+}
+.messageDateRow{
+	display:flex;
+	justify-content:center;
+	margin:8px 0 14px;
+}
+.messageDate{
+	font-size:12px;
+	font-weight:700;
+	color:#6f6298;
+	background:#efe7fb;
+	padding:6px 12px;
+	border-radius:999px;
+	border:1px solid #e2d7f5;
+}
+.messageList::-webkit-scrollbar{
+	width:8px;
+}
+.messageList::-webkit-scrollbar-thumb{
+	background:#d8c9f2;
+	border-radius:999px;
+}

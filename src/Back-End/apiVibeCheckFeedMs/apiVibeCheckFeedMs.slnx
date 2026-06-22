@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="apiVibeCheckFeedMs.Api/apiVibeCheckFeedMs.Api.csproj" />
+  <Project Path="apiVibeCheckFeedMs.Domain/apiVibeCheckFeedMs.Domain.csproj" />
+  <Project Path="apiVibeCheckFeedMs.Infra/apiVibeCheckFeedMs.Infra.csproj" />
+</Solution>

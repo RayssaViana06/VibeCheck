@@ -1,0 +1,50 @@
+.analiseCard{
+    background-color: #EEF4F8;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    border-radius: 16px;
+}
+
+.tituloCard{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.tituloCard > h1{
+    font-size: 18px;
+    line-height: 1;
+    padding-top:6px;
+}
+
+.trechoEmocao{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #5a4a80;
+    margin-bottom: 4px;
+    margin-top: 18px;
+}
+
+.emocaoEIntensidade{
+    display:flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.emocaoPredTrecho{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #5a4a80;
+    margin-bottom: 4px;  
+    font-weight: 800; 
+}
+
+.intensidadeEmoTrecho{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #5a4a80;
+    margin-bottom: 4px;  
+    font-weight: 800; 
+}

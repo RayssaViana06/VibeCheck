@@ -1,0 +1,51 @@
+.conversationItem{
+	display:flex;
+	align-items:center;
+	padding:12px 14px;
+	border-radius:14px;
+	margin-bottom:10px;
+	cursor:pointer;
+	background:#ffffff;
+	border:1px solid transparent;
+	transition:transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.conversationItem:hover{
+	transform:translateY(-1px);
+	border-color:#e1d6f2;
+	box-shadow:0 10px 24px rgba(56, 36, 102, 0.12);
+}
+.conversationItem.active{
+	background:#efe7fb;
+	border-color:#d7c9f1;
+	box-shadow:0 12px 28px rgba(76, 45, 128, 0.18);
+}
+.convAvatar{
+	width:42px;
+	height:42px;
+	border-radius:50%;
+	background:linear-gradient(135deg, #5E499D 0%, #7a5ed8 100%);
+	color:white;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-right:12px;
+	font-weight:700;
+}
+.convBody{min-width:0}
+.convName{font-weight:800;color:#2a1c48}
+.convLast{font-size:12px;color:#7b6fa6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.convBadge{
+	margin-left:auto;
+	min-width:22px;
+	height:22px;
+	padding:0 8px;
+	border-radius:999px;
+	background:linear-gradient(135deg, #5E499D 0%, #7a5ed8 100%);
+	color:#fff;
+	font-size:12px;
+	font-weight:700;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	box-shadow:0 8px 16px rgba(94, 73, 157, 0.3);
+}

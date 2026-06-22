@@ -1,0 +1,25 @@
+.wrapperPagina {
+  background-color: #faf7ff;
+  min-height: 100vh;
+}
+
+.containerGraficos{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 6fr 4fr;
+}
+
+.graficoHeatmap{
+  grid-column: 1/3;
+  grid-row: 1;
+}
+
+.radarEmocional{
+  grid-column: 1/2;
+  min-height: 400px;
+}
+
+.graficoBarras{
+  grid-column: 2/3;
+  min-height: 400px;
+}

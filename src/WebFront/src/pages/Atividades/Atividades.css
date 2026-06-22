@@ -1,0 +1,139 @@
+
+.atv-pac-page {
+  min-height: 100vh;
+  background-color: #f4f2f9;
+  font-family: 'Nunito', 'Segoe UI', sans-serif;
+}
+
+.atv-pac-main {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+
+.atv-pac-header {
+  margin-bottom: 8px;
+}
+
+.atv-pac-titulo {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 800;
+  color: #2d1b6e;
+}
+
+.atv-pac-subtitulo {
+  margin: 4px 0 0;
+  color: #8b7fc7;
+  font-size: 13px;
+}
+
+
+.atv-pac-secao {
+  font-size: 16px;
+  font-weight: 800;
+  color: #5E499D;
+  margin: 24px 0 12px;
+}
+
+.atv-pac-vazio {
+  color: #8b7fc7;
+  font-size: 14px;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.atv-pac-erro {
+  color: #c0392b;
+  font-size: 13px;
+  margin: 8px 0;
+}
+
+
+.atv-pac-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: #fff;
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin-bottom: 10px;
+  border: 1.5px solid transparent;
+  position: relative;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  width: 100%;
+  max-width: 600px;       
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.atv-pac-card:not(.concluida):hover {
+  border-color: #c5b8f0;
+  box-shadow: 0 2px 12px rgba(91, 63, 166, 0.08);
+}
+
+.atv-pac-card.concluida {
+  opacity: 0.65;
+}
+
+
+.atv-pac-checkbox {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid #c5b8f0;
+  background: transparent;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.atv-pac-checkbox.checked {
+  background: #5E499D;
+  border-color: #5E499D;
+}
+
+
+.atv-pac-card-body {
+  flex: 1;
+}
+
+.atv-pac-card-texto {
+  margin: 0 0 6px;
+  font-size: 14px;
+  color: #2d1b6e;
+  line-height: 1.5;
+}
+
+.atv-pac-card-texto.riscado {
+  text-decoration: line-through;
+  color: #8b7fc7;
+}
+
+.atv-pac-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.atv-pac-medico-nome {
+  font-size: 12px;
+  font-weight: 700;
+  color: #5E499D;
+}
+
+.atv-pac-data {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: #8b7fc7;
+}
+
+.atv-pac-data.urgente {
+  color: #c0392b;
+}

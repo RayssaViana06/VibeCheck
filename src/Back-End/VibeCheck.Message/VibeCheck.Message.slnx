@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Message.Api/Message.Api.csproj" Id="aedc7d81-f342-45cc-8cda-d2f289b8d65f" />
+  <Project Path="Message.Application/Message.Application.csproj" Id="b69f8ea5-87a0-4198-b882-4b4f78865b8f" />
+  <Project Path="Message.Domain/Message.Domain.csproj" Id="58d0715f-1082-4919-94a3-3c57fdc21d55" />
+  <Project Path="Message.Infra/Message.Infra.csproj" Id="1bb725b7-9a54-4eca-aa13-9aafdf038c8c" />
+  <Project Path="Message.TestUnit/Message.TestUnit.csproj" Id="ba7f6da7-c6c5-48f6-97c0-81e42c5fc414" />
+  <Project Path="Message.TestIntegration/Message.TestIntegration.csproj" Id="a1c72f1c-5f39-4e2b-9c7b-3c72586f9c2f" />
+</Solution>

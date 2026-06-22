@@ -1,0 +1,79 @@
+.graficoHeatmap {
+  background: white;
+  border: 1px solid #e4daf5;
+  border-radius: 14px;
+  padding: 12px 20px;
+  margin: 24px;
+  box-shadow: 0 2px 10px rgba(90, 60, 180, 0.06);
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+}
+
+.tituloHeatmap {
+  font-size: 18px;
+  font-weight: 800;
+  color: #2e1f5e;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.subtituloHeatmap {
+  font-size: 14px;
+  color: #9e8cc5;
+  margin-bottom: 14px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.heatmap {
+  margin-top: 28px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 22px;
+}
+
+.legendasHeatmap {
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  flex: 0;
+  margin-right: 20px;
+}
+
+.legendasHeatmap > div {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.planoHeatmap {
+  flex: 1;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.colunaHeatmap {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.colunaHeatmap > * {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0ebfa23;
+}
+
+.legendaDiaHeatmap {
+  height: 0px;
+  flex: 0;
+  transform: translateY(-20px);
+  font-size: 12px;
+}

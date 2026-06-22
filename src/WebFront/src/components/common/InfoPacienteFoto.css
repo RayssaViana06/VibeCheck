@@ -1,0 +1,105 @@
+
+.infoBar{
+    display: flex;
+    background-color: #7962B9;
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.infoBarEsquerda{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    gap:12px;
+    margin-left:32px;
+}
+
+.fotoPaciente{
+    width: 84px;
+    height: 84px;
+    margin: 12px;
+}
+
+.infoPaciente{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.nomePaciente{
+    color: white;
+    font-size: 22px;
+    margin: 0;
+    line-height: 1;
+}
+
+.tempoCadastrado{
+    line-height: 1;
+    color:white;
+    font-size: 16px;
+    height: 16px;
+}
+
+.numEntradas{
+    line-height: 1;
+    color:white;
+    font-size: 16px;
+    height: 16px;
+}
+
+.botaoDevolutiva{
+    background: linear-gradient(130deg,#c86f7a,#d4876a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    margin: 32px;
+    border-radius: 22px;
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+.botaoDevolutiva:hover{
+    cursor: pointer;
+}
+
+.textoBotaoDevolutiva{
+    font-size: 24px;
+}
+
+@media (max-width: 600px) {
+    .infoBar {
+        height: auto;
+        padding: 8px 0;
+    }
+    .infoBarEsquerda {
+        height: auto;
+        margin-left: 12px;
+        gap: 8px;
+    }
+    .fotoPaciente {
+        width: 52px;
+        height: 52px;
+        margin: 6px;
+    }
+    .nomePaciente {
+        font-size: 15px;
+    }
+    .tempoCadastrado,
+    .numEntradas {
+        font-size: 12px;
+        height: auto;
+    }
+    .botaoDevolutiva {
+        margin: 8px 12px;
+        padding: 6px 10px;
+    }
+    .textoBotaoDevolutiva {
+        font-size: 13px;
+        white-space: nowrap;
+    }
+}

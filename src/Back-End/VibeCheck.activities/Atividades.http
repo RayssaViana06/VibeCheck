@@ -1,0 +1,71 @@
+@baseUrl = https://localhost:7000
+@token = COLE_O_TOKEN_AQUI
+
+
+GET {{baseUrl}}/dev/token
+
+# ─────────────────────────────────────────────
+# 🏥 2. SAÚDE DA API
+# ─────────────────────────────────────────────
+
+GET {{baseUrl}}/health
+
+# ─────────────────────────────────────────────
+# 📋 3. ATIVIDADES
+# ─────────────────────────────────────────────
+
+
+GET {{baseUrl}}/api/activities
+Authorization: Bearer {{token}}
+
+D
+GET {{baseUrl}}/api/activities/COLE_O_ID_AQUI
+Authorization: Bearer {{token}}
+
+
+POST {{baseUrl}}/api/activities
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "pacienteId": "664f1a2b3c4d5e6f7a8b9c0d",
+  "texto": "Fazer exercício de respiração por 10 minutos antes de dormir",
+  "dataEntrega": "2025-05-01T00:00:00Z",
+  "status": 0
+}
+
+
+PUT {{baseUrl}}/api/activities/COLE_O_ID_AQUI
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "pacienteId": "664f1a2b3c4d5e6f7a8b9c0d",
+  "texto": "Fazer exercício de respiração por 15 minutos",
+  "dataEntrega": "2025-05-01T00:00:00Z",
+  "status": 1
+}
+
+
+DELETE {{baseUrl}}/api/activities/COLE_O_ID_AQUI
+Authorization: Bearer {{token}}
+
+# ─────────────────────────────────────────────
+# 📔 4. DIÁRIO DE EMOÇÕES
+# ─────────────────────────────────────────────
+
+
+GET {{baseUrl}}/api/diario
+Authorization: Bearer {{token}}
+
+
+GET {{baseUrl}}/api/diario/filtro/humor?humor=ansioso
+Authorization: Bearer {{token}}
+
+
+GET {{baseUrl}}/api/diario/filtro/paciente?pacienteId=664f1a2b3c4d5e6f7a8b9c0d
+Authorization: Bearer {{token}}
+
+
+GET {{baseUrl}}/api/diario/filtro/periodo?dataInicio=2024-01-01&dataFim=2024-12-31
+Authorization: Bearer {{token}}

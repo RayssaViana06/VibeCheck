@@ -1,0 +1,292 @@
+
+.atv-psi-page {
+  min-height: 100vh;
+  background-color: #f4f2f9;
+  font-family: 'Nunito', 'Segoe UI', sans-serif;
+}
+
+.atv-psi-main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+
+.atv-psi-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 28px;
+}
+
+.atv-psi-titulo {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 800;
+  color: #2d1b6e;
+}
+
+.atv-psi-subtitulo {
+  margin: 4px 0 0;
+  color: #8b7fc7;
+  font-size: 13px;
+}
+
+.atv-psi-btn-nova {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #c86f7a;
+  border: none;
+  border-radius: 24px;
+  padding: 10px 22px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.atv-psi-btn-nova:hover {
+  opacity: 0.88;
+}
+
+
+.atv-psi-form-card {
+  background: #ece8f7;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 24px;
+  border: 1.5px dashed #b8a8e8;
+}
+
+.atv-psi-form-titulo {
+  margin: 0 0 20px;
+  font-size: 18px;
+  font-weight: 800;
+  color: #2d1b6e;
+}
+
+.atv-psi-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: #5E499D;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.atv-psi-select,
+.atv-psi-input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1.5px solid #c5b8f0;
+  background: #fff;
+  font-size: 14px;
+  color: #2d1b6e;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.atv-psi-select:focus,
+.atv-psi-input:focus {
+  border-color: #5E499D;
+}
+
+.atv-psi-textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1.5px solid #c5b8f0;
+  background: #fff;
+  font-size: 14px;
+  color: #2d1b6e;
+  margin-bottom: 16px;
+  min-height: 90px;
+  resize: vertical;
+  box-sizing: border-box;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.atv-psi-textarea:focus {
+  border-color: #5E499D;
+}
+
+.atv-psi-form-acoes {
+  display: flex;
+  gap: 12px;
+}
+
+.atv-psi-btn-cancelar {
+  flex: 1;
+  padding: 11px;
+  border-radius: 24px;
+  border: 1.5px solid #c5b8f0;
+  background: #fff;
+  color: #5E499D;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.atv-psi-btn-cancelar:hover {
+  background: #f0ecfa;
+}
+
+.atv-psi-btn-salvar {
+  flex: 2;
+  padding: 11px;
+  border-radius: 24px;
+  border: none;
+  background: #c86f7a;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.atv-psi-btn-salvar:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.atv-psi-btn-salvar:hover:not(:disabled) {
+  opacity: 0.88;
+}
+
+
+.atv-psi-secao {
+  font-size: 16px;
+  font-weight: 800;
+  color: #5E499D;
+  margin: 24px 0 12px;
+}
+
+.atv-psi-vazio {
+  color: #8b7fc7;
+  font-size: 14px;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.atv-psi-erro {
+  color: #c0392b;
+  font-size: 13px;
+  margin: 8px 0;
+}
+
+
+.atv-psi-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: #fff;
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin-bottom: 10px;
+  border: 1.5px solid transparent;
+  position: relative;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  width: 100%;
+  max-width: 600px;        
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.atv-psi-card.hovered {
+  border-color: #c5b8f0;
+  box-shadow: 0 2px 12px rgba(91, 63, 166, 0.08);
+}
+
+.atv-psi-card.concluida {
+  opacity: 0.65;
+}
+
+
+.atv-psi-checkbox {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid #c5b8f0;
+  background: transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.atv-psi-checkbox.checked {
+  background: #5E499D;
+  border-color: #5E499D;
+}
+
+
+.atv-psi-card-body {
+  flex: 1;
+}
+
+.atv-psi-card-texto {
+  margin: 0 0 6px;
+  font-size: 14px;
+  color: #2d1b6e;
+  line-height: 1.5;
+}
+
+.atv-psi-card-texto.riscado {
+  text-decoration: line-through;
+  color: #8b7fc7;
+}
+
+.atv-psi-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.atv-psi-paciente-nome {
+  font-size: 12px;
+  font-weight: 700;
+  color: #5E499D;
+}
+
+.atv-psi-data {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: #8b7fc7;
+}
+
+.atv-psi-data.urgente {
+  color: #c0392b;
+}
+
+
+.atv-psi-btn-deletar {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #c5b8f0;
+  padding: 4px;
+  border-radius: 6px;
+  transition: color 0.15s;
+}
+
+.atv-psi-btn-deletar:hover {
+  color: #c0392b;
+}

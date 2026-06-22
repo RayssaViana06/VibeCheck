@@ -1,0 +1,25 @@
+message: Please cite this software using these metadata.
+title: "VibeCheck"
+authors:
+  - family-names: "Bisi Vieira"
+    given-names: "Vitor"
+  - family-names: "Fortunato"
+    given-names: "Marcos Eduardo"
+  - family-names: "dos Santos Silva"
+    given-names: "Rafael Henrique"
+  - family-names: "Guilherme Viana"
+    given-names: "Rayssa Eduarda"
+  - family-names: "Isaque"
+    given-names: "Albertini Silva Oliveira"
+  - family-names: "Cardoso Souza"
+    given-names: "Guilherme Henrique"
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: "Alves de Oliveira"
+    given-names: "Pedro Felipe"
+keywords:
+  - "VibeCheck"
+  - "PUC Minas"
+repository-code: 
+version: 1.0.0
+date-released: 2026-06-20
