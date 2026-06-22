@@ -22,7 +22,7 @@ O objetivo desta aplicação é o desenvolvimento de um sistema de registro de d
 * Pedro Felipe Alves de Oliveira
 
 ## Hospedagem Web
-li><a href="https://deluxe-caramel-b17905.netlify.app/login"> Clique aqui</a></li>
+<li><a href="https://deluxe-caramel-b17905.netlify.app/login"> Clique aqui</a></li>
 
 ## Download
 
